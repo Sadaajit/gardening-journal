@@ -1,0 +1,40 @@
+.temp-banner{
+    position: relative;
+    top: 50px;
+    height: 150px;
+    max-width: 100%;
+    background-color: #c5e1e1;
+}
+.home-page-title{
+    font-family: $font-family-serif;
+    position: relative;
+    top: -75px;
+    a{
+        color: $brand-primary;
+    }
+
+}
+
+.home-page-content{
+    position: relative;
+    text-align: center;
+    font-family: $font-family-serif; 
+    font-size: 20px;
+}
+.page-title{
+    position: absolute;
+    width: 50%;
+    right: 20px;
+    top: 50px;
+
+
+}
+
+.content{
+    p {
+    position: relative;
+    margin-top: 60px;
+    padding: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+}

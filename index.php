@@ -18,10 +18,11 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="content">
-          <h2><?php the_title(); ?></h2>
+          <h2 class="page-title"><?php the_title(); ?></h2>
           <?php the_content(); ?>
+           <div class="vision">
+           </div>
         </div>
-
       </div>
     </div>
 
