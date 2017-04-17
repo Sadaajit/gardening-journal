@@ -1,4 +1,8 @@
 <header class="banner">
+  <div id="header-image">
+    <img src=<?php echo get_template_directory_uri(); ?>/dist/images/IPRMockLogoB.jpg>
+</div>
+  <h1 class="header-title">Institute for Planetary Renewal</h1>
   <nav class="">
 
     <div class="container">
