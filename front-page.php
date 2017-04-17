@@ -2,7 +2,7 @@
 <html>
   <body <?php body_class(); ?>>
     <?php get_template_part('partials/header'); ?>
-    <div class="temp-banner"></div>
+  
     <main class="container">
 
     <?php
