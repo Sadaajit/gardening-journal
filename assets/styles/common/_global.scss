@@ -1,12 +1,24 @@
+body {
+   padding: 10px; 
+}
+
 h2 {
     font-family: $font-family-serif;
     color: $brand-primary;
 
 }
+
 h3 {
     font-family: $font-family-sans-serif;
 }
-h4 {
-font-family: Verdana, Arial, Helvetica, sans-serif;
 
+h4 {
+    font-size: 18px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: $brand-primary;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
 }

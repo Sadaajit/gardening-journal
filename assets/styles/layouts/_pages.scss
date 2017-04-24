@@ -1,14 +1,10 @@
-.temp-banner {
-    position: relative;
-    top: 50px;
-    height: 150px;
-    max-width: 100%;
-}
+
 
 .home-page-title {
     font-family: $font-family-serif;
+    font-size: 30px;
     position: relative;
-    top: -75px;
+    margin-top: 40px;
     a{
         color: $brand-primary;
     }
@@ -18,20 +14,32 @@
     position: relative;
     text-align: center;
     font-family: $font-family-serif; 
-    font-size: 20px;
+    font-size: 16px;
 }
 
-.page-title {
-    position: absolute;
-    width: 50%;
-    top: 50px;
-}
-
-.content {  
-    p {
-    position: relative;
-    margin-top: 60px;
+/*
+    max-width: 25%;
+    float: left;
+    margin: 0 0 0 0;
     padding: 10px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    }
+    position: relative;
+    min-height: 330px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 25px solid grey;
+}*/
+
+
+.page-title{
+    padding-top: 10px;
+    font-family: $font-family-serif;
+    font-size: 22px;
+
+}
+
+.box{
+    width: 300px;
+    border: 25px solid darkgrey;
+    padding: 25px;
+    margin: 25px;
 }
