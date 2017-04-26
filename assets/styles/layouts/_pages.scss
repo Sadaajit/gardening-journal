@@ -17,17 +17,20 @@
     font-size: 16px;
 }
 
-/*
-    max-width: 25%;
+.info-box{
+    max-width: 20%;
     float: left;
-    margin: 0 0 0 0;
+    margin: 10px 0;    
     padding: 10px;
     position: relative;
     min-height: 330px;
-    box-sizing: border-box;
     text-align: center;
-    border: 25px solid grey;
-}*/
+}
+
+.info-box-inner{
+    border: 2px solid $brand-primary;
+    padding: 10px;
+}
 
 
 .page-title{
@@ -37,9 +40,4 @@
 
 }
 
-.box{
-    width: 300px;
-    border: 25px solid darkgrey;
-    padding: 25px;
-    margin: 25px;
-}
+

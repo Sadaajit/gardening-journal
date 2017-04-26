@@ -19,7 +19,7 @@
 
 <header class="banner">
   <div id="header-image">
-    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/IPRMockLogoB.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/IPRMockLogoSmall.jpg">
 </div>
 
 </header>
