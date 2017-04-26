@@ -1,3 +1,8 @@
+ <header class="banner">
+  <div id="header-image">
+    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/IPRMockLogoSmall.jpg">
+
+ 
  <nav class="">
 
     <div class="container">
@@ -16,10 +21,8 @@
     </div>
 
   </nav>
+  </div>
 
-<header class="banner">
-  <div id="header-image">
-    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/IPRMockLogoSmall.jpg">
-</div>
+
 
 </header>

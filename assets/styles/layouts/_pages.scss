@@ -1,4 +1,6 @@
-
+/*
+Front Page
+*/
 
 .home-page-title {
     font-family: $font-family-serif;
@@ -12,9 +14,15 @@
 
 .home-page-content { 
     position: relative;
+    display: block;
+    border-radius: 10px;
+    background-color: lightgray;
     text-align: center;
     font-family: $font-family-serif; 
     font-size: 16px;
+}
+.content{
+     padding: 2px;
 }
 
 .info-box{
@@ -25,11 +33,32 @@
     position: relative;
     min-height: 330px;
     text-align: center;
+   
+    img{
+        margin-bottom: 10px;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow:  2px 2px 3px 1px $brand-terciary;
+
+    }
 }
 
 .info-box-inner{
-    border: 2px solid $brand-primary;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 6px 1px $brand-primary;
+}
+
+.fp-button{
+    border-radius: 10px;
+    background-color: $brand-secondary;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.txt-color {
+    color: white;
 }
 
 

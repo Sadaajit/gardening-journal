@@ -2,9 +2,16 @@
    padding: 10px; 
 }*/
 
+h1 {
+    text-decoration: none;
+}
+
 h2 {
     font-family: $font-family-serif;
+    font-size: 28px;
     color: $brand-primary;
+    text-decoration: none;
+
 
 }
 
@@ -14,11 +21,14 @@ h3 {
 
 h4 {
     font-size: 18px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: $brand-primary;
+    font-family: $font-family-sans-serif;
+    color: $brand-secondary;
 }
 
 h5 {
     font-size: 16px;
     font-weight: 700;
+}
+h6 {
+    color: white;
 }
