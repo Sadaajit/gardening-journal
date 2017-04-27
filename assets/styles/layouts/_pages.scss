@@ -6,7 +6,7 @@ Front Page
     font-family: $font-family-serif;
     font-size: 30px;
     position: relative;
-    margin-top: 40px;
+    margin-top: 25px;
     a{
         color: $brand-primary;
     }
@@ -16,11 +16,13 @@ Front Page
     position: relative;
     display: block;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: $brand-accent;
+    box-shadow:  2px 2px 3px 1px $brand-primary;
     text-align: center;
     font-family: $font-family-serif; 
     font-size: 16px;
 }
+
 .content{
      padding: 2px;
 }
