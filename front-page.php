@@ -4,6 +4,7 @@
   <?php get_template_part('partials/header'); ?>
   
 <main class="container">
+  <div class="row">
 
   <?php
     while (have_posts()) : the_post();
